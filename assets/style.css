@@ -47,13 +47,12 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45%;
-    padding-top: 0%;
+    padding: 10px 45%;
 }
 
 .info {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 700px;
@@ -68,7 +67,6 @@ html, body {
     color: white;
     display: none;
 }
-
 
 .log {
     text-align: center;
@@ -166,17 +164,4 @@ header {
 
 .nav__links li a:hover {
     color: #0088a9;
-}
-
-button {
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 168, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
 }
