@@ -33,6 +33,31 @@ body {
     color: white;
 }
 
+.videos {
+    position: relative;
+    width: 645px;
+    height: 450px;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+    padding: 40px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    float: right;
+    top: 40%;
+}
+
+vidh2 {
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
 .duck header {
     display: flex;
     align-items: center;
